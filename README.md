@@ -1,6 +1,6 @@
 # kernel_killer
 
-[![Github Actions Status](https://github.com/github_username/jupyter-extension/workflows/Build/badge.svg)](https://github.com/github_username/jupyter-extension/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/supaidaman/jupyter-extension/workflows/Build/badge.svg)](https://github.com/supaidaman/jupyter-extension/actions/workflows/build.yml)
 Extension to kill kernel on tab closing
 
 This extension is composed of a Python package named `kernel_killer`
