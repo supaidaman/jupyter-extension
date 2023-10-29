@@ -62,7 +62,10 @@
     "@jupyterlab/notebook": "^4.0.7",
     "@jupyterlab/services": "^7.0.0",
     "@lumino/widgets": "^2.3.0",
-    "@retrolab/application": "^0.3.21"
+    "@retrolab/application": "^0.3.21",
+    "child-process": "^1.0.2",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10"
   },
   "devDependencies": {
     "@jupyterlab/builder": "^4.0.0",
