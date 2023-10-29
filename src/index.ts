@@ -34,7 +34,7 @@ const extension: JupyterFrontEndPlugin<void> = {
       console.log(change);
       if (
         change?.oldValue?.constructor?.name === 'NotebookPanel' &&
-        change?.newValue?.constructor?.name === 'MainAreaWidget'
+        change?.oldValue?.context._isDisposed
       ) {
         console.log('é pra fechar');
         console.log('windows');
