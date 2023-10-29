@@ -31,6 +31,8 @@ jobs:
         set -eux
         python -m pip install .[test]
         pip install pytest
+        pip install pytest-cov
+        pip install --upgrade setuptools
 
         pytest -vv -r ap --cov kernel_killer
         jupyter server extension list
