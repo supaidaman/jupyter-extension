@@ -33,7 +33,8 @@ const extension: JupyterFrontEndPlugin<void> = {
     shell.currentChanged.connect(async (_: any, change: any) => {
       console.log(change);
       if (
-        change?.oldValue?.constructor?.name === 'NotebookPanel' &&
+        (change?.oldValue?.constructor?.name === 'NotebookPanel' ||
+          change?.oldValue?.constructor?.name === 'Ie') &&
         change?.oldValue?.context._isDisposed
       ) {
         console.log('é pra fechar');
