@@ -1,6 +1,6 @@
 {
     "name": "kernel_killer",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Extension to kill kernel on tab closing",
     "keywords": [
         "jupyter",
